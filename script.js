@@ -435,9 +435,9 @@ function generateOrderMessage() {
     });
     
     message += '━━━━━━━━━━━━━━━━━━━\n';
-    message += `💰 TỔNG CỘNG: ${formatPrice(calculateTotal())}\n\n`;
-    message += '📞 Liên hệ: 0984 771 687\n';
-    message += '🙏 Cảm ơn quý khách!';
+    message += ` TỔNG CỘNG: ${formatPrice(calculateTotal())}\n\n`;
+    message += ' Liên hệ: 0984 771 687\n';
+    message += 'Vui Lòng Nhập Địa Chỉ Của Bạn (Khu Vực Cầu Kè) :';
     
     return message;
 }
